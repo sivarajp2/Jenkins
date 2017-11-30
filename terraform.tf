@@ -1,12 +1,12 @@
 provider "aws" {
-access_key = "xxxx"
-secret_key = "xxxx"
+access_key = "AKIAJDHWPZTWHZPCY7XQ"
+secret_key = "yzIvadf6wpdj/v7gJxYuHWH2vBbIkj9WzWuDMOoF"
 region = "us-east-1"
 }
 resource "aws_instance" "example"{
 ami = "ami-55ef662f",
 instance_type = "t2.micro"
-key_name = "SIVAEC2NEW"
+key_name = "siva"
 tags {
         Name = "TestEC2"
     }
