@@ -8,10 +8,8 @@ import groovy.lang.Binding
  
 node
 { 
- script{
-   sh "pwd"
- }
-//     sh "rm -rf terra.zip"
+ //   sh "pwd"
+ //     sh "rm -rf terra.zip"
 //     sh "rm -rf terraform"
  
 stage 'Code Checkout'
