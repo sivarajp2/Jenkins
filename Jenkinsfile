@@ -13,7 +13,7 @@ node
 //     sh "rm -rf terraform"
  
 stage 'Code Checkout'
-    git url: 'https://sivarajp2:Pappu1980!@github.com/sivarajp2/Jenkins.git'         
+    git url: 'https://github.com/sivarajp2/Jenkins.git'         
 stage ('Terraform Install')
 echo 'siva'
 //    sh "unzip terra.zip"
