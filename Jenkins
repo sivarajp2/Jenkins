@@ -14,7 +14,7 @@ node
 stage 'Code Checkout'
     git url: 'https://sivarajp2:Pappu1980!@github.com/sivarajp2/Jenkins.git'         
 stage ('Terraform Install')
-    sh "unzip terra.zip"
+//    sh "unzip terra.zip"
     sh "ls -ltr"
    
    // echo "PATH is: $PATH"
