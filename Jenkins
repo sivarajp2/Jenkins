@@ -7,9 +7,9 @@ import groovy.lang.Binding
  
 node
 { 
-     sh "pwd"
-     sh "rm -rf terra.zip"
-     sh "rm -rf terraform"
+//     sh "pwd"
+//     sh "rm -rf terra.zip"
+//     sh "rm -rf terraform"
  
 stage 'Code Checkout'
     git url: 'https://sivarajp2:Pappu1980!@github.com/sivarajp2/Jenkins.git'         
