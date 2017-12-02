@@ -16,10 +16,9 @@ stage 'Code Checkout'
     git url: 'git@github.com:sivarajp2/Jenkins.git'         
 stage ('Terraform Install')
 echo 'siva'
- sh  "tar -xzf terra1.tar.gz"
- sh  "cd terra1"
- sh "pwd"
+
  stage ('Terraform Install')
+  sh  "unzip terra.zip"
    sh "ls -ltr"
    
    // echo "PATH is: $PATH"
