@@ -8,6 +8,7 @@ import groovy.lang.Binding
  
 node
 { 
+ echo "${env.PATH}"
  //   sh "pwd"
   //   sh "rm -rf terraform.zip"
    sh "rm -rf terraform"
