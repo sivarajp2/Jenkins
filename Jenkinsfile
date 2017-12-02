@@ -26,13 +26,13 @@ echo "$PATH"
  sh "export PATH=${PATH}"
  echo "$PATH"
  
-// sh "terraform apply -auto-approve"
+ sh "terraform apply -auto-approve"
    sh "ls -ltr"
    
     echo "PATH is: $PATH"
 
 stage ('Terraform Show')
- sh "terraform show"
+// sh "terraform show"
     
 stage ('Terraform Install')
   // sh "terraform apply -auto-approve"
