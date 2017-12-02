@@ -18,6 +18,8 @@ stage ('Terraform Install')
 echo 'siva'
  sh  "tar -xzf terra1.tar.gz"
  sh  "cd terra1"
+ sh "pwd"
+ stage ('Terraform Install')
    sh "ls -ltr"
    
    // echo "PATH is: $PATH"
