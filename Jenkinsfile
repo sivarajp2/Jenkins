@@ -35,7 +35,7 @@ stage ('Terraform Show')
  sh "terraform show"
     
 stage ('Terraform Install')
-  // sh "terraform apply -auto-approve"
+  sh "terraform apply -auto-approve"
   
   
 }
