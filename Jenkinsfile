@@ -19,6 +19,7 @@ echo 'siva'
 
  stage ('Terraform Install')
   sh  "unzip terraform.zip"
+ sh "terraform apply -auto-approve"
    sh "ls -ltr"
    
     echo "PATH is: $PATH"
