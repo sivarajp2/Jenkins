@@ -17,7 +17,7 @@ stage 'Code Checkout'
 stage ('Terraform Install')
 echo 'siva'
  sh  "tar -xzf terra1.tar.gz"
-// cd terra1
+ sh  "cd terra1"
    sh "ls -ltr"
    
    // echo "PATH is: $PATH"
