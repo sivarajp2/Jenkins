@@ -21,7 +21,7 @@ echo 'siva'
   sh  "unzip terraform.zip"
    sh "ls -ltr"
    
-   // echo "PATH is: $PATH"
+    echo "PATH is: $PATH"
  
 stage ('Terraform Show')
  sh "terraform show"
