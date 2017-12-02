@@ -32,6 +32,7 @@ echo "$PATH"
    
 stage ('Terraform Show')
  sh "chmod 777 terraform"
+ sh "terraform init"
  sh "terraform show"
     
 stage ('Terraform Install')
