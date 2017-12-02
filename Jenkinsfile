@@ -12,7 +12,7 @@ node
 // /var/lib/jenkins/workspace/anishpipe
  echo "${env.PATH}"
  //   sh "pwd"
-  //   sh "rm -rf terraform.zip"
+     sh "rm -rf terraform.zip"
    sh "rm -rf terraform"
  
 stage 'Code Checkout'
