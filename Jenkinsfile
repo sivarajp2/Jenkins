@@ -8,6 +8,8 @@ import groovy.lang.Binding
  
 node
 { 
+ env.PATH = "/var/lib/jenkins/workspace/anishpipe:${env.PATH}"
+// /var/lib/jenkins/workspace/anishpipe
  echo "${env.PATH}"
  //   sh "pwd"
   //   sh "rm -rf terraform.zip"
