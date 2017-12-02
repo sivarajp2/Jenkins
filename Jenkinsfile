@@ -18,7 +18,7 @@ stage ('Terraform Install')
 echo 'siva'
 
  stage ('Terraform Install')
-  sh  "unzip terra.zip"
+  sh  "unzip terraform.zip"
    sh "ls -ltr"
    
    // echo "PATH is: $PATH"
