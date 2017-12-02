@@ -12,12 +12,14 @@ node
 // /var/lib/jenkins/workspace/anishpipe
  echo "${env.PATH}"
  //   sh "pwd"
-     sh "rm -rf terraform.zip"
+    sh "rm -rf terraform.zip"
    sh "rm -rf terraform"
  
 stage 'Code Checkout'
-    git url: 'git@github.com:sivarajp2/Jenkins.git'         
-stage ('Terraform Install')
+ 
+ git url: 'git@github.com:sivarajp2/Jenkins.git'         
+
+ stage ('Terraform Install')
 echo 'siva'
 
  stage ('Terraform Install')
@@ -25,14 +27,10 @@ echo "$PATH"
  sh  "unzip terraform.zip"
  sh "export PATH=${PATH}"
  echo "$PATH"
- 
- sh "terraform apply -auto-approve"
-   sh "ls -ltr"
-   
-    echo "PATH is: $PATH"
 
+   
 stage ('Terraform Show')
-// sh "terraform show"
+ sh "terraform show"
     
 stage ('Terraform Install')
   // sh "terraform apply -auto-approve"
