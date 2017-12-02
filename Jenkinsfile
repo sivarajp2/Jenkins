@@ -8,7 +8,7 @@ import groovy.lang.Binding
  
 node
 { 
- env.PATH = "/var/lib/jenkins/workspace/anishpipe:${env.PATH}"
+ env.PATH = "/var/lib/jenkins/workspace/anishpipe/workspace:${env.PATH}"
 // /var/lib/jenkins/workspace/anishpipe
  echo "${env.PATH}"
  //   sh "pwd"
