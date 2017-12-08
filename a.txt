@@ -1,0 +1,22 @@
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+#sudo apt-get update
+#apt install docker.io -auto-approve
+sh -c "apt-get update ; apt-get install docker.io -y ; bash"
+ 
+docker -v
+docker images
+ 
+ 
+ 
+docker build -t friendlyhello .
+docker run -i -t friendlyhello:latest /bin/bash
+ 
+ 
+ 
+ 
+sudo docker login -u user -p password
+sudo docker tag zawad/django:latest zawad1879/dockerhub:firstimagepush
+ 
+sudo docker tag repo/image:latest repo/image:firstimagepush
+ 
+sudo docker push repo/secondimage:secondimagepush
