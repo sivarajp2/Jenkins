@@ -4,11 +4,11 @@ secret_key = "yuHoF"
 region = "us-east-1"
 }
 resource "aws_instance" "example"{
-ami = "ami-55ef662f",
+ami = "ami-fe9a1884",
 instance_type = "t2.micro"
 key_name = "sivarajnew"
 tags {
-        Name = "TestEC2"
+        Name = "ubuntudock"
     }
 user_data = "${file("test.sh")}"
 }
