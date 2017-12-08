@@ -1,6 +1,5 @@
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-#sudo apt-get update
-#apt install docker.io -auto-approve
+
 sh -c "apt-get update ; apt-get install docker.io -y ; bash"
  
 docker -v
